@@ -38,7 +38,11 @@
        <string name="night_bright_low">Low brightness</string>
        <string name="night_bright_medium">Medium brightness</string>
 
-     <!-- App Ops Settings -->
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
+    <!-- App Ops Settings -->
     <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Location</string>
     <string name="app_ops_cat_personal">Personal</string>
