@@ -309,6 +309,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName()
     };
 }

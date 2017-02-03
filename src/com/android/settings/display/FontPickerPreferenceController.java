@@ -103,7 +103,16 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
         }
     }
 
-    public void stopProgress() {
+    private boolean isPackageInstalled(String package_name, Context context) {
+        try {
+            PackageManager pm = context.getPackageManager();
+            pm.getPackageInfo(package_name, PackageManager.GET_ACTIVITIES);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+     public void stopProgress() {
         mFontPreference.stopProgress();
     }
 }
