@@ -12,8 +12,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
         <string name="colt_name_title">ColtOS A Learners Hub</string>
         <string name="colt_name_summary">Colt Oreo -More Than A Custom ROM - 2.0</string>
+
+    <!-- Colt Center -->
+    <string name="colt_settings_title">Colt Interiors</string>
+    <string name="colt_settings_summary">Open Colts Lobby :)</string>
 
 	<!-- Development Settings -->
         <!-- Dev Options Enabled by Default -->
@@ -221,5 +226,9 @@
 
     <string name="battery_image">Battery image</string>
     <string name="battery_image_description">Show battery image in status bar</string>
+
+   <!-- Force authorize substratum packages -->
+   <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
+   <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
 
 </resources>
