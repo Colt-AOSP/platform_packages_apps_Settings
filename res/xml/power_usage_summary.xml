@@ -54,13 +54,13 @@
             android:key="battery_saver_summary"
             android:title="@string/battery_saver"/>
 
-       <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+       <com.colt.settings.preferences.SystemSettingSwitchPreference
             android:key="battery_save_mode_color"
             android:title="@string/battery_saver_color_title"
             android:summary="@string/battery_saver_color_summary"
             android:defaultValue="false" />
 
-       <org.aospextended.extensions.preference.GlobalSettingSwitchPreference
+       <com.colt.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
