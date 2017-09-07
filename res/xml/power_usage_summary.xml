@@ -60,7 +60,7 @@
             android:summary="@string/battery_saver_color_summary"
             android:defaultValue="false" />
 
-       <com.colt.settings.preferences.GlobalSettingSwitchPreference
+        <com.colt.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
