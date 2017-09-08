@@ -73,6 +73,11 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
+        <!-- Colt Version --> 
+        <Preference android:key="colt_version"
+                android:title="@string/colt_version"
+                android:summary="@string/colt_version_default"/>
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 android:title="@string/security_patch"
@@ -98,6 +103,11 @@
                 android:key="kernel_version"
                 android:title="@string/kernel_version"
                 android:summary="@string/summary_placeholder"/>
+
+        <!-- Build date -->
+        <Preference android:key="build_date"
+                android:title="@string/build_date"
+                android:summary="@string/build_date_default" />
 
         <!-- Detailed build version -->
         <Preference
