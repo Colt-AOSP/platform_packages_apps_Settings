@@ -17,6 +17,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+	<!-- ColtOS Header -->
+        <Preference android:key="cos_logo"
+            android:layout="@layout/colt_logo" />
+
 	<!-- Colt logo -->
         <Preference android:key="colt_logo"
                 android:title="@string/colt_name_title"
