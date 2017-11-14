@@ -134,6 +134,10 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.colt.settings.ColtSettingsLayout;
+import com.colt.settings.fragments.navbartabs.FlingSettings;
+import com.colt.settings.fragments.navbartabs.Navbar;
+import com.colt.settings.fragments.navbartabs.PulseSettings;
+import com.colt.settings.fragments.navbartabs.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -257,7 +261,11 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             ColtSettingsLayout.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            Navbar.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -297,6 +305,10 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
 	    Settings.ColtSettingsLayoutActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }

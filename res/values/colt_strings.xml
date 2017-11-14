@@ -218,5 +218,6 @@
     <string name="ambient_doze_auto_brightness_summary">Use last screen-on adaptive brightness value for Ambient Display or Lift to Wake screen</string>
 
     <string name="background_processes_settings_title">Background processes</string>
+    <string name="bottom_nav_navigation_title">Navigation</string>
 
 </resources>
