@@ -17,4 +17,8 @@
 <resources>
     <!-- Settings switchbar background -->
     <color name="switchbar_background_color">?android:attr/colorSecondary</color>
+
+    <!-- Device specific gesture package -->
+    <string name="config_customGesturePackage" translatable="false"></string>
+
 </resources>
