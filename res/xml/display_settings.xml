@@ -146,5 +146,4 @@
         android:entries="@array/system_theme_style_entries"
         android:entryValues="@array/system_theme_style_values" />
 
-    </PreferenceCategory>
 </PreferenceScreen>
