@@ -37,7 +37,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Switch;
 
-import org.aospextended.extensions.preference.CustomSeekBarPreference;
+import com.colt.settings.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
