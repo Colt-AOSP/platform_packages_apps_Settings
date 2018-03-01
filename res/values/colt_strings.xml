@@ -239,4 +239,7 @@
     <string name="theme_accent_picker_summary">Select system theme accent color</string>
     <string name="theme_accent_picker_default">Default</string>
 
+    <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+
 </resources>
