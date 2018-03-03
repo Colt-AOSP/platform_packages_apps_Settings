@@ -145,9 +145,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
-        controllers.add(new AmbientDisplayPreferenceController(
-                context,
-                new AmbientDisplayConfiguration(context),
+        controllers.add(new AmbientDisplayPreferenceController(context, new AmbientDisplayConfiguration(context),
                 KEY_AMBIENT_DISPLAY));
         controllers.add(new TapToWakePreferenceController(context));
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
