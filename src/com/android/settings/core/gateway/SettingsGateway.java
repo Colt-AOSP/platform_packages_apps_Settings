@@ -133,7 +133,6 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.colt.settings.ColtSettings;
 import com.colt.settings.ColtSettingsLayout;
 
 public class SettingsGateway {
@@ -257,7 +256,6 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-	    ColtSettings.class.getName(),
             ColtSettingsLayout.class.getName(),
             RunningServices.class.getName()
     };
