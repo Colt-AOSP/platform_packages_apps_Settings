@@ -19,7 +19,11 @@
 
 	<!-- ColtOS Header -->
         <Preference android:key="cos_logo"
-            android:layout="@layout/colt_logo" />
+            android:layout="@layout/colt_logo">
+	   <intent
+		android:action="android.intent.action.VIEW"
+		android:data="https://github.com/Colt-AOSP" />
+        </Preference>
 
 	<!-- Colt logo -->
         <Preference android:key="colt_logo"
