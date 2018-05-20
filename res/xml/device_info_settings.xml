@@ -77,29 +77,10 @@
                 <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
         </Preference>
 
-        <!-- Device hardware model -->
-        <Preference
-                android:key="device_model"
-                android:title="@string/model_info"
-                android:summary="@string/summary_placeholder"/>
-
-        <!-- Device firmware version -->
-        <Preference android:key="firmware_version"
-                android:title="@string/firmware_version"
-                android:summary="@string/summary_placeholder"/>
-
-        <!-- Colt Version --> 
-        <Preference android:key="colt_version"
-                android:title="@string/colt_version"
-                android:summary="@string/colt_version_default"/>
-
-        <!-- Security patch level -->
-        <Preference android:key="security_patch"
-                android:title="@string/security_patch"
-                android:summary="@string/summary_placeholder">
-                <intent android:action="android.intent.action.VIEW"
-                        android:data="https://source.android.com/security/bulletin/" />
-        </Preference>
+	<!-- OS Informations -->
+        <Preference android:key="device_dialog"
+                android:title="Know Our OS!!"
+                android:summary="Hey!! Tap here to know about Our ROM" />
 
         <!-- Device FCC equipment id -->
         <Preference
@@ -118,11 +99,6 @@
                 android:key="kernel_version"
                 android:title="@string/kernel_version"
                 android:summary="@string/summary_placeholder"/>
-
-        <!-- Build date -->
-        <Preference android:key="build_date"
-                android:title="@string/build_date"
-                android:summary="@string/build_date_default" />
 
         <!-- Detailed build version -->
         <Preference
